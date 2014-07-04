@@ -1,5 +1,4 @@
 # User
-==========================
 
 ### GET /user/1
 Returns the details of a user
@@ -15,9 +14,9 @@ additional query paramaters
 
 ##### Response JSON Object:
  	
-- db_name (string) – Database name
-- ok (boolean) – Event operation status
-- type (string) – A database event is one of created, updated, deleted
+- user_name (string) – The users name
+- id (number) – The users id
+- isAdmin (boolean) – Indicates if the user is an admin or not
 
 ##### Status Codes:	
 - 200 OK – Request completed successfully
